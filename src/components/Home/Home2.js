@@ -22,7 +22,7 @@ function Home2() {
               I fell in love with machine learning. My curiocity to learn the interworkings of
               the world led me to learn about the world of <b className="purple">Data Science</b> and <b className="purple">Machine Learning</b>.
               <br />
-              <br />I am fluent in a myrad of technologies spanning across
+              <br />I am fluent in a myriad of technologies spanning across
               <i>
                 <b className="purple"> Data Science/Machine Learning, Backend Development, Cloud Deployment, and a little bit of Frontend </b>
               </i>
