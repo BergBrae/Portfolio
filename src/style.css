@@ -741,3 +741,10 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.logo-name {
+  color: #ffffff !important;
+}
+.logo-domain {
+  color: #c770f0 !important;
+}
