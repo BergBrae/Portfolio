@@ -16,6 +16,7 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 import { SiGooglescholar } from "react-icons/si";
+import { IoMdCode } from "react-icons/io";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -41,10 +42,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <div style={{ display: "inline" }}>
-            <span className="logo-name">Brady </span>
-            <span className="logo-domain">B</span>
-            <span className="logo-name">e</span>
-            <span className="logo-domain">rg .dev</span>
+            <span className="logo-domain">Brg.dev</span>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -78,13 +76,13 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <IoMdCode
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Experience
               </Nav.Link>
             </Nav.Item>
 
