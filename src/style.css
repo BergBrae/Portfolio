@@ -267,11 +267,10 @@ button:focus {
 }
 
 .home-section {
-  position: relative;
+  /* position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   height: 100vh;
 }
 
@@ -334,6 +333,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  height: 100vh;
 }
 
 .home-about-description {
@@ -777,4 +777,14 @@ button:focus {
 
 * {
   font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.job-card-img {
+  width: 15%;
 }
