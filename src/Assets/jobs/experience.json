@@ -1,0 +1,74 @@
+{
+    "Experience": [
+      {
+        "Title": "Automation Engineer",
+        "Company": "Merit Laboratories",
+        "Duration": "April 2024 - Present",
+        "Responsibilities": [
+          "Automated various lab tasks, significantly enhancing operational efficiency and reducing manual workloads.",
+          "Developed Python-based tools to collect and process data from lab equipment, generating comprehensive PDF reports.",
+          "Created a user-friendly React application for organizing and generating lab reports.",
+          "Observed lab workflows to identify automation opportunities and presented detailed improvement proposals to supervisors.",
+          "Implemented approved automation projects, leading to substantial improvements in data accuracy and process efficiency.",
+          "Collaborated with cross-functional teams to seamlessly integrate automated solutions into existing workflows."
+        ],
+        "Image": "merit.png"
+      },
+      {
+        "Title": "Machine Learning Engineer",
+        "Company": "Blueflite",
+        "Duration": "August 2023 - December 2023",
+        "Responsibilities": [
+          "Led the creation of a novel machine learning model that integrates data-driven optimization with fundamental principles of physics to accurately predict a drone's center of gravity during flight.",
+          "Established a propeller and motor test bench to collect data and characterize the efficiency and propulsion of drone components.",
+          "Collaborated closely with cross-functional teams to design and implement comprehensive visualizations and reports.",
+          "Engaged in brainstorming sessions with engineers to blend domain expertise with data-driven methodologies, resulting in innovative solutions that leveraged the best of both worlds for improved drone performance and operational efficiency."
+        ],
+        "Image": "blueflite.png"
+      },
+      {
+        "Title": "Lead Software Engineer",
+        "Company": "NASA University Student Research Challenge",
+        "Duration": "March 2022 - December 2023",
+        "Responsibilities": [
+          "Engineered advanced software enabling drones to autonomously land, latch, and charge on public transportation vehicles, enhancing operational efficiency and reducing the need for manual intervention.",
+          "Spearheaded the development of a sophisticated flight planning algorithm, integrating live transit data to produce real-time, adaptive flight plans, ensuring timely and accurate drone deliveries.",
+          "Led the design and implementation of a cutting-edge system for in-flight drone charging using high-powered lasers.",
+          "Developed and optimized algorithms for precise drone tracking and dynamic flight motion control, significantly advancing the capabilities of autonomous drone operations."
+        ],
+        "Image": "nasa.png"
+      },
+      {
+        "Title": "Student Research Scientist",
+        "Company": "Research group on Human-AI Interaction, MSU",
+        "Duration": "September 2023 - February 2024",
+        "Responsibilities": [
+          "Spearheaded research initiatives employing Large Language Models (LLMs) to delve into the nuances of human-AI interaction dynamics.",
+          "Conceived and engineered a cutting-edge interactive application designed to meticulously capture, record, and analyze patterns in which individuals engage with LLMs.",
+          "Expertly integrated Docker for container management, coupled with Azure cloud services, ensuring seamless deployment and scalability of the application in real-time environments."
+        ],
+        "Image": "msu_comm_arts.png"
+      },
+      {
+        "Title": "Data Science Intern",
+        "Company": "Delta Dental (Roosevelt Innovations)",
+        "Duration": "May 2022 - August 2023",
+        "Responsibilities": [
+          "Conducted innovative research into embedding system rules into vector representations, facilitating easier management of a complex decision management system.",
+          "Utilized computer vision and natural language processing models to analyze document contents, enabling automated mapping of contractual policies.",
+          "Developed Large Language Model (LLM) applications to interpret and generate logic in the language of the decision management system, streamlining system upgrades and modifications."
+        ],
+        "Image": "roosevelt.svg"
+      },
+      {
+        "Title": "Student Research Scientist",
+        "Company": "Michigan State University Civil and Environmental Engineering Department",
+        "Duration": "May 2021 - May 2022",
+        "Responsibilities": [
+          "Devised an innovative method for generating synthetic residential appliance energy demand loads, significantly enhancing grid-wide residential demand response case study outcomes.",
+          "Leveraged advanced time-series modeling, visualization, and numerical estimation techniques for effective data analysis and strategic planning."
+        ],
+        "Image": "msu.png"
+      }
+    ]
+  }

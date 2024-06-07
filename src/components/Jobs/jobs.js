@@ -2,9 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import JobCard from "./JobCard";
 import Particle from "../Particle";
-import BluefliteLogo from "../../Assets/jobs/Blueflite logo.jpeg";
+import jobData from "../../Assets/jobs/experience.json";
+import Accordion from 'react-bootstrap/Accordion';
 
 function Jobs() {
+  const jobs = jobData.Experience;
+
+
   return (
     <Container fluid className="job-section">
       <Particle />
@@ -15,13 +19,15 @@ function Jobs() {
         <p style={{ color: "white" }}>
           Here is my professional history.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <JobCard
-            img={BluefliteLogo}
-            title="Software Engineer"
-            description="I am a Software Engineer at a large tech company. I work on a variety of projects, from web development to machine learning."
-          />
-        </Row>
+
+        <Accordion>
+          {jobs.map((job, index) => (
+            <JobCard
+              job={job}
+              index={index}
+            />
+          ))}
+        </Accordion>
       </Container>
     </Container>
   );
