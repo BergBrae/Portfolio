@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e1468cf4.css",
-    "main.js": "/Portfolio/static/js/main.93b65a44.js",
+    "main.js": "/Portfolio/static/js/main.6c2fef43.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/BradyBergResume.pdf": "/Portfolio/static/media/BradyBergResume.bcbce577750202afec86.pdf",
+    "static/media/BradyBergResume.pdf": "/Portfolio/static/media/BradyBergResume.71044fff57a1962a3884.pdf",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.e1468cf4.css.map": "/Portfolio/static/css/main.e1468cf4.css.map",
-    "main.93b65a44.js.map": "/Portfolio/static/js/main.93b65a44.js.map",
+    "main.6c2fef43.js.map": "/Portfolio/static/js/main.6c2fef43.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1468cf4.css",
-    "static/js/main.93b65a44.js"
+    "static/js/main.6c2fef43.js"
   ]
 }
