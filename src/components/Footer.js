@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { IoIosInformationCircle } from "react-icons/io";
 
 function Footer() {
   let date = new Date();
@@ -22,7 +23,7 @@ function Footer() {
               <a
                 href="https://github.com/bergbrae"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -32,7 +33,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/brady-berg/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -42,13 +43,23 @@ function Footer() {
               <a
                 href="https://www.instagram.com/brady.berg"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
               </a>
             </li>
           </ul>
+        </Col>
+        <Col md={{ span: 1, offset: 3 }}  className="footer-info">
+          <a
+            href="https://twitter.com/bradyberg_"
+            style={{ color: "white" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoIosInformationCircle />
+          </a>
         </Col>
       </Row>
     </Container>

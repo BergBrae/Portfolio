@@ -429,6 +429,12 @@ button:focus {
   text-align: center !important;
 }
 
+.footer-info {
+  z-index: 1;
+  text-align: center !important;
+  padding-top: 8px !important;
+}
+
 @media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
