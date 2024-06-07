@@ -42,7 +42,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <div style={{ display: "inline" }}>
-            <span className="logo-domain">Brg.dev</span>
+            <span className="logo-domain">Brady Berg</span>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle
