@@ -465,6 +465,19 @@ button:focus {
 /* --------- */
 /* Projects */
 /* --------- */
+
+
+.job-item {
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  margin: 15px !important;
+  border-radius: 5px !important;
+}
+
+
+
+
+
+
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
