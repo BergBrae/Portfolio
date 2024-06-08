@@ -480,19 +480,30 @@ button:focus {
   height: auto !important;
 }
 
-.project-card-view {
+.job-card-view {
   box-shadow: 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
 }
 
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.accordion-button {
+  background-color: #ffffff00 !important;
+  color: white !important;
+}
+
+.white-on-transparent {
+  filter: brightness(0) invert(1);
 }
 
 .blog-card {

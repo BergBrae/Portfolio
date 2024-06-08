@@ -11,9 +11,9 @@ function JobCard(props) {
   const imagesPath = process.env.PUBLIC_URL + "/assets/images/";
 
   return (
-    <Accordion.Item eventKey={index} className="project-card-view">
-      <Accordion.Header>
-        <img src={imagesPath + Image} className="img-fluid" style={{ maxHeight: "80px" }} />
+    <Accordion.Item eventKey={index} className="transparent">
+      <Accordion.Header >
+        <img src={imagesPath + Image} className="img-fluid white-on-transparent" style={{ maxHeight: "80px" }} />
         <h2>
           {Title}
         </h2>

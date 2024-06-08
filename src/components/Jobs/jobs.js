@@ -20,11 +20,12 @@ function Jobs() {
           Here is my professional history.
         </p>
 
-        <Accordion>
+        <Accordion className="transparent">
           {jobs.map((job, index) => (
             <JobCard
               job={job}
               index={index}
+              className="transparent"
             />
           ))}
         </Accordion>
