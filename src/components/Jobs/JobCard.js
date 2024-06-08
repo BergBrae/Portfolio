@@ -31,14 +31,20 @@ function JobCard(props) {
         </Container>
       </Accordion.Header>
       <Accordion.Body>
-        <p>
-          {Duration}
-        </p>
-        <ul>
-          {Responsibilities.map((responsibility, index) => {
-            return <li key={index}>{responsibility}</li>;
-          })}
-        </ul>
+        <Container>
+          <Row>
+            <Col>
+              <p>
+                {Duration}
+              </p>
+              <ul>
+                {Responsibilities.map((responsibility, index) => {
+                  return <li key={index} className="job-point">{responsibility}</li>;
+                })}
+              </ul>
+            </Col>
+          </Row>
+        </Container>
       </Accordion.Body>
     </Accordion.Item>
   );
